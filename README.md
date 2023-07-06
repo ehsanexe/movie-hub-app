@@ -7,6 +7,7 @@ This React Native app allows users to search for movies and read their descripti
 - Search Movies: Enter the name of a movie in the search bar to retrieve relevant results.
 - Movie Details: View detailed information about each movie, including its description, ratings, and other relevant data.
 
+
 ## Installation
 
 To run the Movie Search and Ratings app locally on your machine, follow these steps:
@@ -35,7 +36,12 @@ To run the Movie Search and Ratings app locally on your machine, follow these st
    yarn install
    ```
 
-4. Start the app in development mode:
+4. Obtain an API key from the [OMDB API](https://www.omdbapi.com/) and add it to the constants.js file
+   ```shell
+   export const REACT_APP_OMDB_API_KEY = "YOUR_API_KEY_HERE";
+   ```
+
+5. Start the app in development mode:
 
    ```shell
    npm start
@@ -47,7 +53,7 @@ To run the Movie Search and Ratings app locally on your machine, follow these st
    yarn start
    ```
 
-5. Connect your device or emulator and launch the app:
+6. Connect your device or emulator and launch the app:
 
    - For iOS:
 
